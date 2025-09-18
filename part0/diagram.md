@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
   participant browser
   participant server
@@ -6,3 +8,5 @@ sequenceDiagram
   activate server
   server->>browser: Response code 302 (Redirect) to location /exampleapp/notes
   deactivate server
+
+```
